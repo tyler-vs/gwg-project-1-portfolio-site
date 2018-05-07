@@ -1,11 +1,11 @@
-@charset 'utf-8';
+@charset "utf-8";
 
-/* 
- * colors: 
+/*
+ * colors:
  * #02b3e4
  * #2d3c49
  * #7d97ad
- * 
+ *
  */
 
 html {
@@ -52,7 +52,7 @@ h6 {
   font-size: 1rem;
 }
 
-/* 
+/*
  * Container
  */
 .container {
@@ -75,7 +75,7 @@ h6 {
   clear: both;
 }
 
-/* 
+/*
  * Header
  */
 /* .site-header {} */
@@ -138,17 +138,17 @@ h6 {
   }
 }
 
-/* 
+/*
  * Main
  */
 /* .site-main {} */
 
-/* 
+/*
  * Hero
  */
 /* .site-content {} */
 
-/* 
+/*
  * Hero
  */
 .section--hero {
@@ -188,7 +188,7 @@ h6 {
   }
 }
 
-/* 
+/*
  * Featured Works
  */
 /* .section--featured-work {} */
@@ -225,7 +225,7 @@ h6 {
     background: #fff;
 }
 .featured-works__item.tag__css:after {
-    content: 'CSS';
+    content: "CSS";
     background: blue;
 } */
 .featured-works__item a {
