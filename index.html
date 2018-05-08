@@ -17,27 +17,23 @@
   <!-- Styles -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.css">
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
   <!--[if lt IE 8]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
   <!-- Site Header -->
   <header class="site-header" id="masthead">
     <div class="site-header__inner container">
-
-        <!-- Logo -->
       <div class="site-header__logo">
         <a href="/index.html">
           <img src="img/logo.png" alt="HTML5 Boilerplate logo.">
         </a>
       </div>
-
-      <!-- Title -->
-      <!-- TODO: Considering if I should instead use the H1 element with the .site-header__title class -->
       <div class="site-header__title">
         <a href="/index.html">
           <h1>Tyler Van Schaick</h1>
@@ -53,34 +49,50 @@
     <div class="site-content container" id="content">
 
       <!-- Hero Section -->
-      <section class="section section--hero">
+      <figure class="splash">
+        <img class="splash__image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/307033/earth-and-space-universe-header.jpg" alt="Header Image.">
+        <figcaption class="splash__caption">
+          <p>Photo by <span>Adnanta Raharja</span> on <a href="https://unsplash.com/" Title="Go to Unsplash" target="_blank">Unsplash</a>.</p>
+        </figcaption>
+      </figure>
+
+      <!-- <section class="section section--hero">
         <div class="section__inner">
           <h2>Hello world!</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia optio doloribus, soluta ab nobis voluptatem quam voluptas illum tempora ratione fugiat obcaecati illo sint nemo totam facilis fuga perspiciatis.</p>
         </div>
-      </section>
+      </section> -->
 
       <!-- Featured Work Section -->
       <section class="section section--featured-work">
         <h2>Featured Work</h2>
         <ul class="featured-works">
           <li class="featured-works__item">
-              <a href="https://codepen.io/tvs/full/5254f6e573547f5ae1829cd12539790a/" target="_blank" title="View Project on Codepen.">
-              <img src="img/projects/animal-card-small.png" alt="Screenshot of my Animal Trading Card project.">
+              <a href="https://codepen.io/tvs/full/5254f6e573547f5ae1829cd12539790a/" target="_blank">
+              <img src="img/projects/animal-card-small.png"
+                   srcset="img/projects/animal-card-small.png 1x,
+                           img/projects/animal-card-small-2x.png 2x"
+                   alt="Screenshot of a project.">
               <h3>Animal Trading Card</h3>
               <span>View on Codepen</span>
             </a>
           </li>
           <li class="featured-works__item">
-            <a href="https://codepen.io/tvs/full/NyMvJG/" target="_blank" title="View Project on Codepen.">
-              <img src="img/projects/pixel-art-maker-small.png" alt="Screenshot of my Pixel Art Maker project.">
+            <a href="https://codepen.io/tvs/full/NyMvJG/" target="_blank" title="Pixel Artl Maker">
+              <img src="img/projects/pixel-art-maker-small.png"
+                   srcset="img/projects/pixel-art-maker-small.png 1x,
+                           img/projects/pixel-art-maker-small-2x.png 2x"
+                   alt="Screenshot of a project.">
               <h3>Pixel Art Maker</h3>
               <span>View on Codepen</span>
             </a>
           </li>
           <li class="featured-works__item">
-            <a href="https://codepen.io/tvs/full/qXRrGR/" target="_blank" title="View Project on Codepen.">
-              <img src="img/projects/markdown-styles-small.png" alt="Screenshot of my Styling Markdown project.">
+            <a href="https://codepen.io/tvs/full/qXRrGR/" target="_blank">
+              <img src="img/projects/markdown-styles-small.png"
+                   srcset="img/projects/markdown-styles-small.png 1x,
+                           img/projects/markdown-styles-small-2x.png 2x"
+                   alt="Screenshot of a project.">
               <h3>Styling Markdown</h3>
               <span>View on Codepen</span>
             </a>
