@@ -1,14 +1,14 @@
 @charset "utf-8";
 
-/*
- * colors:
+/* 
+ * colors: 
  * #02b3e4
  * #2d3c49
  * #7d97ad
- *
+ * 
  */
 
-/*
+/* 
  * Base
  */
 html {
@@ -55,7 +55,7 @@ h6 {
   font-size: 1rem;
 }
 
-/*
+/* 
  * Container
  */
 .container {
@@ -78,7 +78,7 @@ h6 {
   clear: both;
 }
 
-/*
+/* 
  * Header
  */
 /* .site-header {} */
@@ -141,17 +141,17 @@ h6 {
   }
 }
 
-/*
+/* 
  * Main
  */
 /* .site-main {} */
 
-/*
+/* 
  * Hero
  */
 /* .site-content {} */
 
-/*
+/* 
  * Hero
  */
 .section--hero {
@@ -191,7 +191,7 @@ h6 {
   }
 }
 
-/*
+/* 
  * Featured Works
  */
 /* .section--featured-work {} */
@@ -267,28 +267,35 @@ h6 {
 }
 
 .splash {
-    position: relative;
-    padding: 0;
-    margin: 40px -20px 0;
+  position: relative;
+  padding: 0;
+  margin: 40px -20px 0;
+  max-height: 350px;
+  overflow: hidden;
+}
+@media screen and (max-width: 550px) {
+  .splash {
+    max-height: 240px;
+  }
 }
 
 .splash__caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 10px 20px;
-    background: rgba(0,0,0,0.8);
-    border: 1px solid #000;
-    color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #000;
+  color: #fff;
 }
 
 .splash__caption span,
 .splash__caption em {
-    font-style: italic;
+  font-style: italic;
 }
 .splash__caption a {
-    color: inherit;
+  color: inherit;
 }
 .splash__caption p {
-    margin: 0;
+  margin: 0;
 }

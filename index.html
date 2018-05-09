@@ -23,19 +23,19 @@
 
 <body>
   <!--[if lt IE 8]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
   <!-- Site Header -->
   <header class="site-header" id="masthead">
     <div class="site-header__inner container">
       <div class="site-header__logo">
         <a href="/index.html">
-          <img src="img/logo.png" alt="HTML5 Boilerplate logo.">
+          <img src="img/logo.png" alt="Tyler Van Schaick's Logo.">
         </a>
       </div>
       <div class="site-header__title">
-        <a href="/index.html">
+        <a href="/index.html" title="Tyler Van Schaick">
           <h1>Tyler Van Schaick</h1>
           <p class="site-header__tagline">Front-end Ninja</p>
         </a>
@@ -49,19 +49,29 @@
     <div class="site-content container" id="content">
 
       <!-- Hero Section -->
+      <!-- Note: The responsive image examples seen in this "hero" section is
+            based off work from the following:
+            - Jason Grigsby - https://cloudfour.com/thinks/responsive-images-101-part-9-image-breakpoints/
+            - Pete LePage - https://developers.google.com/web/fundamentals/design-and-ux/responsive/images
+            - http://www.responsivebreakpoints.com/ - responsive image generator tool
+            - Adnanta Raharja - owner of image from Unsplash.com -->
       <figure class="splash">
-        <img class="splash__image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/307033/earth-and-space-universe-header.jpg" alt="Header Image.">
+        <img class="splash__image"
+             id="picimg"
+             alt="Page hero image by Adnanta Raharja from Unsplash.com"
+             src="img/splash/splash-1144.jpg"
+             srcset="
+               img/splash/splash-200.jpg 200w,
+               img/splash/splash-521.jpg 521w,
+               img/splash/splash-744.jpg 744w,
+               img/splash/splash-890.jpg 890w,
+               img/splash/splash-1040.jpg 1040w,
+               img/splash/splash-1144.jpg 1144w"
+             sizes="(max-width: 1144px) 100vw, 1144px">
         <figcaption class="splash__caption">
-          <p>Photo by <span>Adnanta Raharja</span> on <a href="https://unsplash.com/" Title="Go to Unsplash" target="_blank">Unsplash</a>.</p>
+          <p>Photo by <em>Adnanta Raharja</em> on <a href="https://unsplash.com/" Title="Go to Unsplash" target="_blank">Unsplash</a>.</p>
         </figcaption>
       </figure>
-
-      <!-- <section class="section section--hero">
-        <div class="section__inner">
-          <h2>Hello world!</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quia optio doloribus, soluta ab nobis voluptatem quam voluptas illum tempora ratione fugiat obcaecati illo sint nemo totam facilis fuga perspiciatis.</p>
-        </div>
-      </section> -->
 
       <!-- Featured Work Section -->
       <section class="section section--featured-work">
