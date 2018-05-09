@@ -18,6 +18,11 @@ This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.t
 - [HTML Validator](https://validator.w3.org/nu/)
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+- [Jason Grigsby](https://cloudfour.com/thinks/responsive-images-101-part-9-image-breakpoints/)
+- [Pete LePage](https://developers.google.com/web/fundamentals/design-and-ux/responsive/images)
+- [responsivebreakpoints.com - responsive image generator tool](http://www.responsivebreakpoints.com/)
+- [Adnanta Raharja owner of image from Unsplash.com](https://unsplash.com/@adnantaputra)
+- [unsplash.com](https://unsplash.com/)
 
 ### Resources: 
 
